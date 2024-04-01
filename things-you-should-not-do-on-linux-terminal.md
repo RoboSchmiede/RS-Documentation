@@ -17,12 +17,18 @@ Boot from another drive and rename the directory(link) back to /lib64.
 sudo mv /li64 /lib64
 ```
 
+## a function called recursively
+```
+:(){ :|:& };:
+```
+can crash your linux system as non root user
+
  
 ## delete all
 ```
-rm *
+rm * -rf
 ```
 Using command history allot, I (as root) accidental ended up removing `*` in `/`.
 ### Prevention:
-Do not use `rm *`.
+Do not use `rm * -rf`.
 Do not use `root` user whenever possible.
