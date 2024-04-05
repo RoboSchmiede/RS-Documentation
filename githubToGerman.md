@@ -22,5 +22,5 @@
 | `Commit` | lokale Code Änderungen in `Clone` | `Pull request` für ein `Repo` |
 | `Pull request` | `Commit`s | fragen ob neuer code eingebaut wird `Merge` |
 | `Merge`| `Commit`s oder `Pull request`| neuen, getesteten Code ins `Repo` einbauen |
-| `Issue` | `Repo` | Problemlösung, `Pull request` |
+| `Issue` | `Repo`-Inhalt | Problemlösung, `Pull request` |
 | `Fork`| fremdes `Repo` auf Server| eigenes `Repo` auf Server |
